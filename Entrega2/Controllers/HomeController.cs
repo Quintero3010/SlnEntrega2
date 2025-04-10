@@ -8,6 +8,10 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="logger">Este para....</param>
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -18,6 +22,10 @@ public class HomeController : Controller
         return View();
     }
 
+    /// <summary>
+    /// Accion que se encar....
+    /// </summary>
+    /// <returns></returns>
     public IActionResult Privacy()
     {
         return View();
