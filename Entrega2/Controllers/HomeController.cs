@@ -23,7 +23,7 @@ public class HomeController : Controller
     }
 
     /// <summary>
-    /// Accion que se encar....
+    /// Accion se encar....
     /// </summary>
     /// <returns></returns>
     public IActionResult Privacy()
